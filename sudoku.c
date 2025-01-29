@@ -38,11 +38,3 @@ void imprimirTablero(int tablero[9][9]){
         }
     }
 
-int main(){
-    rellenarTablero(tablero[9][9]);
-    imprimirTablero(tablero[9][9]);
-        return 0;
-    }
-}
-
-
