@@ -27,7 +27,7 @@ void imprimirTablero(int tablero[9][9]){
     // Imprimir tablero formateado con tabulaciones y |
     for (int i = 0; i < 9; i++){
         for (int j = 0; j < 9; j++){
-            printf("%d\t", tablero[i][j]);
+            printf("%d ", tablero[i][j]);
             if (j == 2 || j == 5){
                 printf("| ");
             }
@@ -37,4 +37,11 @@ void imprimirTablero(int tablero[9][9]){
             printf("---------------------\n");
         }
     }
+}
 
+int main()
+{
+    //rellenarTablero(tablero);
+    imprimirTablero(tablero);
+    return 0;
+}
