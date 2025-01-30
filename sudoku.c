@@ -13,6 +13,12 @@ int tablero[9][9] = {
     {0, 0, 0, 0, 0, 0, 0, 0, 0}
 };
 
+int main()
+{
+    imprimirTablero(tablero);
+    return 0;
+}
+
 
 void rellenarTablero(int tablero[9][9]){
     for (int i = 0; i < 9; i++){
@@ -39,9 +45,6 @@ void imprimirTablero(int tablero[9][9]){
     }
 }
 
-int main()
-{
-    //rellenarTablero(tablero);
-    imprimirTablero(tablero);
-    return 0;
+bool comprobar(){
+
 }
